@@ -1,0 +1,39 @@
+
+body {
+
+    color: black;
+    background-color: #EEDD82;
+  }
+  
+.fundo{
+    color: black;
+    background-color: #EEDD82;
+}
+  
+  img {
+      width: 1000px;
+      height: 00px;
+      border-radius: 50%;
+      border: 5px solid black;
+      
+  }
+  .container {
+      display: flex;
+      align-items: left;
+      padding: 20px;
+  }
+  .text {
+      display: 1;
+      padding: 10px;
+  }
+  .image {
+      flex: 1;
+  
+      text-align: right;
+      padding: 10px;
+  }
+  
+  .image img {
+      max-width: 100%;
+      height: auto;
+  }
