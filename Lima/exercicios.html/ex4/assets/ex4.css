@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.container{
+    display: flex;
+    
+}
+
+.red{
+    background-color: red;
+    height: 800px;
+    width: 500px; 
+}
+
+.green{
+    background-color: rgb(5, 245, 5);
+    height: 800px;
+    width: 500px; 
+}
+
+.blue{
+    background-color: blue;
+    height: 800px;
+    width: 500px; 
+}

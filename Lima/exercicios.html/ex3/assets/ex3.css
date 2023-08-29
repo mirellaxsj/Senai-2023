@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+   
+    align-items:center;
+    width: 98vw;
+    height: 80vh;
+}
+
+.red{
+    background-color: red;
+    height: 300vw;
+    width: 102%; 
+}
+
+.green{
+    background-color:  rgb(5, 245, 5);
+    height: 300vw;
+    width: 102%; 
+    
+}
+
+.blue{
+    background-color: blue;
+    height: 300vw;
+    width: 102%; 
+}

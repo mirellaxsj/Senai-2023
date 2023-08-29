@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.lista{
+    display: flex;  
+}
+
+.lista li{
+    margin: 20px;  
+}
