@@ -7,7 +7,6 @@ int main (){
 	char direcao[10];
 	char comando[20];
 
-	printf("Digite o comando que o soldado deve seguir: ");
-	scanf("%s" ,&comando);
+	
 }
 
