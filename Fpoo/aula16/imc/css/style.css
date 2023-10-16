@@ -22,7 +22,7 @@ main {
     margin-top: 30px;
 }
 
-div {
+.card {
     padding: 20px;
     background-color: #7e4e1e;
     box-shadow: 1px 1px 10px 2px black;
@@ -41,4 +41,10 @@ h3 {
 
 p {
     margin-block: 5px;
+}
+
+.espaco {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
 }

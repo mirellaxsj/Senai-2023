@@ -1,0 +1,44 @@
+<!--JS-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orientação a Objetos</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body onload="atualizaTabela()">
+
+    <header>
+        <h1>Inserindo e processando dados em uma tabela</h1>
+        <form id="novaPessoa">
+            <input type="text" name="nome" placeholder="Nome completo" required>
+            <input type="date" name="nascimento" required>
+            <select name="sexo">
+                <option value="N">Gênero</option>
+                <option value="F">Feminino</option>
+                <option value="M">Masculino</option>
+            </select>
+            <input type="submit" value="Inserir">
+        </form>
+        <h3 id="alert" style="color: red;"></h3>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Nascimento</th>
+                    <th>Sexo</th>
+                    <th>Idade</th>
+                    <th>Classificação</th>
+                </tr>
+            </thead>
+            <tbody id="corpoTabela"></tbody>
+        </table>
+    </main>
+</body>
+<script src="../js/idades.js"></script>
+</html>
