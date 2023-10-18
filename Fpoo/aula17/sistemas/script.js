@@ -72,23 +72,42 @@ else if (this.salario < 4664.69)
 else
     return this.salario * 27.5 / 100 - 869.36;
 }
+
+
+// const obj1 = new salario('Joao', 1000)
+// const obj2 = new salario('Maria', 2000)
+// const obj3 = new salario('Mariana', 3000)
+// const obj4 = new salario('Ana', 4000)
+// const obj5 = new salario('Julia', 5000)
+// const obj6 = new salario('Bárbara', 6000)
+// const obj7 = new salario('Rosalina', 7000)
+// const obj8 = new salario('Marina', 8000)
+// const obj9 = new salario('Silvia', 10000)
+
+
+
+// console.log(obj1)
+
+// const pagamento = [];
+// pagamento.push(new salario('Joao', 1000))
+// pagamento.push(new salario('Maria', 2000))
+// pagamento.push(new salario('Mariana', 3000))
+// pagamento.push(new salario('Ana', 4000))
+// pagamento.push(new salario('Julia', 5000))
+
+// const main = document.getElementById("pagamento");
+
+// pagamento.forEach(pagamento => {
+//     const div = document.createElement("div")
+//     div.innerHTML = pagamento.showHTML()
+//     main.appendChild(div)
+// })
+
+// const nomeInput = document.getElementById("nomeInput")
+// const salarioInput = document.getElementById("salarioInput")
+
+// function enviar(){
+//     console.log(nomeInput.value, salarioInput.value)
+    
 }
-
-const obj1 = new salario('Joao', 1000)
-const obj2 = new salario('Maria', 2000)
-const obj3 = new salario('Mariana', 3000)
-const obj4 = new salario('Ana', 4000)
-const obj5 = new salario('Julia', 5000)
-const obj6 = new salario('Bárbara', 6000)
-const obj7 = new salario('Rosalina', 7000)
-const obj8 = new salario('Marina', 8000)
-const obj9 = new salario('Silvia', 10000)
-
-
-
-console.log(obj1)
-
-
-
-
-
+const pgto1 = new salario("João", 1900)
