@@ -1,0 +1,57 @@
+*{
+    margin :0px;
+    padding: 0px;
+}
+
+body{
+   background-color: #ddd;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+    margin-top: 30px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-inline: 550px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+input[type="search"] {
+    width: 280px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+label {
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    width: 800px;
+    height: 300px;
+    flex-direction: column;
+    margin-inline: 200px;
+    margin-top: 60px; 
+}
+
+.noticia {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.noticia img {
+    width: 300px;
+    height: 200px;
+}

@@ -16,9 +16,13 @@ function criarCard(){
         let cardNew = card.cloneNode(true);
         cardNew.classList.remove('model');
         cardNew.querySelector("#nomeValor").innerHTML = pessoa.nome;
-        cardNew.querySelector("#salarioValor").innerHTML = pessoa.salarioValor;
+        cardNew.querySelector("#salarioValor").innerHTML = pessoa.salario;
         cardNew.querySelector("#salarioBase").innerHTML = pessoa.salarioBase;
         cardNew.querySelector("#salarioLiquido").innerHTML = pessoa.salarioLiquido;
         cards.appendChild(cardNew);
     })
+}
+function remover (e) {
+    e.parentNode.parentNode.remove()
+    pessoas.splice(e,1)
 }

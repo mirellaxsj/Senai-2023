@@ -1,6 +1,24 @@
 body{
     background: #eee;
 }
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
 
 .card{
     width: 250px;
@@ -9,6 +27,7 @@ body{
     border: 1px solid black;
     background: #fff;
     box-shadow: 5px 5px 15px rgba(0,0,0, .5);
+    
 }
 
 .card h1{
@@ -18,3 +37,35 @@ body{
 .model{
     display: none;
 }
+
+#formPessoa {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 40px;
+    
+    
+}
+input[type="submit"]{
+    width: 150px;
+    height: 45px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+}
+
+input[type="text"]{
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+input[type="number"]{
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+}
+button:hover, button:active, button:focus {
+    background: red;
+}
+
