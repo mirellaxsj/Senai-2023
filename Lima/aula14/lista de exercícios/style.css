@@ -1,0 +1,26 @@
+/* @import url('https://fonts.google.com/specimen/Rubik+Mono+One'); */
+
+*{
+    margin:0px;
+    padding:0px;
+
+}
+
+body{
+
+    background-color: blueviolet
+
+}
+
+p h1{
+    align-items: center;
+    color: yellow;
+    font-size: 50px;
+    margin: 10px;
+}
+
+
+li a{
+    color:black;
+    justify-content: left;
+}
